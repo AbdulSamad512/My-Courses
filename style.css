@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    /* margin-top: 4px; */
+}
+
+#logo{
+    margin: 0 14px;
+    display: flex;
+    align-items: center;
+     color: white; 
+     font-size: 28px;
+     margin-right: 40px;
+}
+
+#logo img{
+    height: 42px;
+    /* filter: invert(1); */
+}
+
+#navbar{
+    background-color: black;
+    padding: 13px 14px;
+    font-family: 'Lacquer';
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li{
+       list-style: none;
+}
+
+#navbar li a{
+       text-decoration: none;
+       margin: 13px 30px;
+       color: white;
+       font-size: 1.1rem;
+}
+
+#navbar li a:hover{
+    color: lightslategray;
+}
+
+#introsection{
+    background: center/cover no-repeat url("pp.jpg");
+    height: 650px;
+    background-color: red;
+    /* content: ""; */
+    /* position: relative */
+    /* width: 100%; */
+}
+
+#sponsorsSection{
+    height: 300px;
+    background-color: lightgrey;
+    
+}
+
+#sponsorsSection h2{
+    font-family: cursive;
+    text-align: center;
+    padding-top: 12px;
+
+}
+
+#sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.spImage{
+    height: 180px;
+    margin: 20px;
+}
+
+#missionSection{
+      height: 300px;
+      /* display: block; */
+      /* margin: auto; */
+      /* width: 100%; */
+}
+
+#missionSection h2{
+    font-family: cursive;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 29%;
+    margin: 23px 21px;
+    height: 209px;
+    display: inline-block; 
+    background-color: azure;
+}
+
+.card h3{
+    text-align: center;
+    margin-top: 10px 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 100px;
+    padding: 0 14px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 0 10px; 
+    /* position: Absolute; top: 20px right 0px;  */
+}
+
+
+.card-content p{
+    font-size: 18px;
+    position: Absolute; top: 20px right 0px;  
+    /* text-align: right; */
+}
+
+/* .btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+} */
+
+#footer{
+    height: 30px;
+    font-family: sans-serif;
+    background-color: black;    
+    color: cyan;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+}
